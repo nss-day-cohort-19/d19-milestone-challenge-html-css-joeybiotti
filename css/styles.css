@@ -1,3 +1,13 @@
+/***GLOBAL STYLING***/
+/*
+
+RIMARY COLOR:  #3F51B5
+SECONDARY COLOR: #455A64
+TERTIARY COLOR: ##263238
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Nothing+You+Could+Do|Rock+Salt');
+
 body {
 	background-color: #fff;
 };
@@ -7,10 +17,12 @@ body {
 }
 
 #main-header {
-	text-transform: uppercase;
+	font-family: 'Amatic SC', cursive;
 	flex-direction: row;
-	background-color: darkgrey;
-	color: lightblue;
+	background-color: #3F51B5;
+	color: #fff;
+	margin: 1%;
+	padding: 1%;
 }
 
 #resourcelist a {
@@ -18,14 +30,19 @@ body {
 	font-weight: 600;
 }
 
+#resourcelist a:hover {
+	background-color: #263238;
+}
+
 #resourcelist li {
 	display: inline;
 }
 
 #main-footer {
-	background-color: darkgrey;
-	color: dodgerblue;
+	background-color: #3F51B5;
+	color: #fff;
 	justify-content: center;
+	margin: 1%;
 }
 
 .social-media{
