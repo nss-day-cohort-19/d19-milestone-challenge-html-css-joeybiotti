@@ -1,0 +1,30 @@
+body {
+  background-color: #F5F5F5;
+  margin: auto;
+  padding: auto; }
+
+#main-header {
+  background-color: #6191F2;
+  color: #F5F5F5;
+  margin: auto;
+  display: flex; }
+
+h1 {
+  justify-content: center; }
+
+.container {
+  background-color: #1B189A;
+  color: #6191F2;
+  display: flex; }
+
+h4 {
+  color: #7C7F7D;
+  margin: auto; }
+
+#main-footer {
+  background-color: #1B189A;
+  color: #6191F2;
+  margin: auto;
+  padding: auto; }
+
+/*# sourceMappingURL=main.css.map */

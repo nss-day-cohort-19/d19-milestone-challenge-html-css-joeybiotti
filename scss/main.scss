@@ -1,0 +1,38 @@
+// **COLORS**//
+
+$primary: #1B189A;
+$secondary:#6191F2;
+$tertiary: #7C7F7D;
+$white: #F5F5F5;
+
+body {
+	background-color: $white;
+	margin: auto;
+	padding: auto;
+}
+
+#main-header {
+	background-color: $secondary;
+	color: $white;
+	margin: auto;
+	display: flex;
+} h1 {
+	justify-content: center;
+}
+
+.container {
+	background-color: $primary;
+	color: $secondary;
+	display: flex;
+} h4 {
+	color: $tertiary;
+	margin: auto;
+}
+
+#main-footer {
+	background-color: $primary;
+	color: $secondary;
+	margin: auto;
+	padding: auto;
+}
+
