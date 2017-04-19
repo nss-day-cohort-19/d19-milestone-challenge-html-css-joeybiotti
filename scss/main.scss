@@ -9,30 +9,44 @@ body {
 	background-color: $white;
 	margin: auto;
 	padding: auto;
+	font-family: Arial, sans-serif;
 }
 
 #main-header {
 	background-color: $secondary;
-	color: $white;
 	margin: auto;
+	padding: auto;
 	display: flex;
 } h1 {
-	justify-content: center;
+	align-content: center;
+	color: $white;
+	font-weight: 600;
 }
 
-.container {
-	background-color: $primary;
+#container {
 	color: $secondary;
-	display: flex;
 } h4 {
 	color: $tertiary;
 	margin: auto;
+} h2 {
+	color: $tertiary;
+} a {
+	text-decoration: none;
+} a:hover {
+	background-color: $secondary;
 }
 
 #main-footer {
-	background-color: $primary;
-	color: $secondary;
+	background-color: $secondary;
+	display: flex;
 	margin: auto;
 	padding: auto;
+} footer{
+	color: $white;
+	font-size: 14px;
+	font-weight: lighter;
+	justify-content: center;
+} .social-media {
+	padding: 1%;
+	margin: 1%;
 }
-
