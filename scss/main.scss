@@ -1,52 +1,20 @@
-// **COLORS**//
-
-$primary: #1B189A;
-$secondary:#6191F2;
-$tertiary: #7C7F7D;
+// colors //
+$primary: #1a03b0;
+$seconday: #0f0264;
+$tertiary: #e9e6ff;
 $white: #F5F5F5;
 
-body {
-	background-color: $white;
-	margin: auto;
-	padding: auto;
-	font-family: Arial, sans-serif;
-}
+// fonts //
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
 
-#main-header {
-	background-color: $secondary;
-	margin: auto;
-	padding: auto;
-	display: flex;
-} h1 {
-	align-content: center;
-	color: $white;
-	font-weight: 600;
-}
+$main-font: 'Roboto', sans-serif;
+$secondary-font: 'Lato', sans-serif;
 
-#container {
-	color: $secondary;
-} h4 {
-	color: $tertiary;
-	margin: auto;
-} h2 {
-	color: $tertiary;
-} a {
-	text-decoration: none;
-} a:hover {
-	background-color: $secondary;
-}
-
-#main-footer {
-	background-color: $secondary;
-	display: flex;
-	margin: auto;
-	padding: auto;
-} footer{
-	color: $white;
-	font-size: 14px;
-	font-weight: lighter;
-	justify-content: center;
-} .social-media {
-	padding: 1%;
-	margin: 1%;
+header{
+	#main-header{
+		background-color: $primary;
+		color: $white;
+	}.social-media{
+		display: inline-block;
+	}
 }
